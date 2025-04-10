@@ -3,18 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+.arriba{
+    background: rgb(26, 26, 226);
+    position: relative;
+    display: flex;
+    height: 60px;  
+    align-items: center;
+}
 .minicuadra{
     width: 275px;
-    height: 75px;
+    height: 60px;
     background: rgb(106, 106, 231);
     position: absolute;
     top: 0px;
     left: 0px;
-}
-.arriba{
- background: rgb(26, 26, 226);
-    position: relative;
-    display: flex;
-    height: 75px;
-   align-items: center;
 }

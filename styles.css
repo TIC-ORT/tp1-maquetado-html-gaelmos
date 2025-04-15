@@ -8,7 +8,7 @@ body {
     background-color: white;
 }
 .arriba{
-    background: rgb(26, 26, 226);
+    background: rgb(103, 103, 236);
     position: relative;
     display: flex;
     height: 60px;  
@@ -17,14 +17,26 @@ body {
 .minicuadra{
     width: 275px;
     height: 60px;
-    background: rgb(106, 106, 231);
+    background: rgb(179, 179, 253);
     position: absolute;
     top: 0px;
     left: 0px;
 }
-.barra-busqueda {
-    width: 250px;
-    height: 25px;
+.botones {
+    display: flex;
+    gap: 10px;
+    margin-left: 1000px;
+    z-index: 1;
+}
+
+.boton-blanco {
+    width: 120px;
+    height: 20px;
     background-color: white;
-    margin-left: 80px;
+}
+
+.boton-naranja {
+    width: 70px;
+    height: 20px;
+    background-color: #FF7F50;
 }

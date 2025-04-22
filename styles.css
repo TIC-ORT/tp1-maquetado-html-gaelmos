@@ -6,37 +6,49 @@
 body {
     font-family: Arial, sans-serif;
     background-color: white;
+    width: 100%;
+    height: 100%;
 }
-.arriba{
-    background: rgb(103, 103, 236);
+
+.arriba {
+    background: #8DD8D8;
     position: relative;
     display: flex;
-    height: 60px;  
+    height: 8%;  
+    min-height: 60px;
     align-items: center;
+    justify-content: space-between;
+    padding-right: 2%;
 }
-.minicuadra{
-    width: 275px;
-    height: 60px;
-    background: rgb(179, 179, 253);
+
+.minicuadra {
+    width: 25%;
+    height: 100%;
+    background: #7ECECE;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
 }
+
 .botones {
     display: flex;
-    gap: 10px;
-    margin-left: 1000px;
+    gap: 2%;
     z-index: 1;
+    margin-left: 85%;
 }
 
 .boton-blanco {
-    width: 120px;
-    height: 20px;
+    width: 8%;
+    min-width: 70px;
+    height: 33%;
+    min-height: 20px;
     background-color: white;
 }
 
 .boton-naranja {
-    width: 70px;
-    height: 20px;
+    width: 8%;
+    min-width: 70px;
+    height: 33%;
+    min-height: 20px;
     background-color: #FF7F50;
 }

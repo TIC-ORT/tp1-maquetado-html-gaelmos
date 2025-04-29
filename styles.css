@@ -129,7 +129,23 @@ body {
     top: 125%;  
     left: 2%;
 }
-
+.cuadrado1na1{
+    background-color: rgb(89, 165, 209);
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top: 80%;  
+    left: 23%;
+}
+   
+.cuadrado2na2{
+    background-color: rgb(104, 104, 103);
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top: 125%;  
+    left: 23%;
+}
 .principal {
     position: absolute;
     left: 25%;
@@ -181,3 +197,4 @@ body {
     width: 100%;
     margin-bottom: 12px;
 }
+

@@ -129,23 +129,6 @@ body {
     top: 125%;  
     left: 2%;
 }
-.cuadrado1na1{
-    background-color: rgb(89, 165, 209);
-    width: 20%;
-    height: 40%;
-    position: absolute;
-    top: 80%;  
-    left: 23%;
-}
-   
-.cuadrado2na2{
-    background-color: rgb(104, 104, 103);
-    width: 20%;
-    height: 40%;
-    position: absolute;
-    top: 125%;  
-    left: 23%;
-}
 .principal {
     position: absolute;
     left: 25%;
@@ -196,5 +179,140 @@ body {
     background-color: #ebe8e8;
     width: 100%;
     margin-bottom: 12px;
+}
+.textm{
+    background-color: rgb(59, 59, 59);
+    width: 26%;
+    height: 25px;
+    position: relative;
+    top: 125px;  
+    left: 42%;
+}
+.linemini{
+    background-color: rgb(173, 173, 173);
+    width: 44%;
+    height: 10px;
+    position: relative;
+    top: 115px;  
+    left: 42%;
+}
+.linemini2{
+    background-color: rgb(173, 173, 173);
+    width: 44%;
+    height: 10px;
+    position: relative;
+    top: 125px;  
+    left: 42%;
+}      
+.linemini3{
+    background-color: rgb(173, 173, 173);
+    width: 44%;
+    height: 10px;
+    position: relative;
+    top: 135px;  
+    left: 42%;
+}
+.linemini4{
+    background-color: rgb(173, 173, 173);
+    width: 44%;
+    height: 10px;
+    position: relative;
+    top: 145px;  
+    left: 42%;
+}
+.lineaminii{
+    background-color: rgb(173, 173, 173);
+    width: 30%;
+    height: 10px;
+    position: relative;
+    top: 155px;  
+    left: 49%;
+}        
+.triangulo{
+    position: relative;
+    top: 160px;  
+    left: 500px;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent; 
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid rgb(189, 188, 188);
+    transform: rotate(270deg);
+}
+.triangulo2{
+    position: relative;
+    top: 70px;  
+    left:  90%;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent; 
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid rgb(189, 188, 188);
+    transform: rotate(90deg);
+}
+.cuadraceleste{
+    background-color: rgb(146, 225, 245);
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top: 80%;  
+    left: 350px;
+}
+.cuadragris{
+    background-color: rgb(185, 184, 184);
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top: 125%;  
+    left: 350px;
+}
+/*esto lo saque de google para que aparezca la montaña en el cuadrado celeste*/
+.imagen-principal {
+    width: 30%;
+    padding-bottom: 36%;
+    background-color: #8DD8D8;
+    position: relative;
+    overflow: hidden;
+    margin-left: 50%;
+    margin-top: 230px;
+}
+
+.imagen-principal::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    background-color: #7ECECE;
+    bottom: 0;
+    left: 20%;
+    clip-path: polygon(0 100%, 50% 0, 100% 100%);
+}
+
+.imagen-principal::after {
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background-color: #6EBEBE;
+    bottom: 0;
+    left: 10%;
+    clip-path: polygon(0 100%, 50% 0, 100% 100%);
+}
+
+.cuadramedio1{
+    background-color: rgb(248, 208, 75);
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top: 80%;  
+    left: 1205px;
+}
+.cuadramedio2{
+    background-color: rgb(65, 64, 64);
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top: 125%;  
+    left: 1205px;
 }
 

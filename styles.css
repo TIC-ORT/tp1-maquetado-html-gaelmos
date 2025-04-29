@@ -129,3 +129,55 @@ body {
     top: 125%;  
     left: 2%;
 }
+
+.principal {
+    position: absolute;
+    left: 25%;
+    top: 60px;
+    width: 75%;
+    height: calc(100% - 60px);
+    padding: 20px;
+}
+
+.articulo {
+    position: relative;
+    width: 100%;
+    min-height: 150px;
+    margin-bottom: 30px;
+}
+
+.navegacioniz, .navegacionder {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navegaizquierda {
+    left: 0;
+}
+
+.navegaderecha {
+    right: 0;
+}
+
+.textocontenido {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.titulocontenido {
+    height: 20px;
+    background-color: #5c5c5c;
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+.parrafocontenido {
+    height: 8px;
+    background-color: #ebe8e8;
+    width: 100%;
+    margin-bottom: 12px;
+}

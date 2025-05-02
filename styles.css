@@ -19,6 +19,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-right: 2%;
+    width: 103%;
 }
 
 .minicuadra {
@@ -99,7 +100,7 @@ body {
     width: 8%;
     height: 25px;
     position: relative;
-    top: 390px;  
+    top: 350px;  
     left: 105px;
 }
 .lineadelcuadrado{
@@ -107,7 +108,7 @@ body {
     width: 6%;
     height: 5px;
     position: absolute;
-    top: 475px;  
+    top: 420px;  
     left: 115px;
     z-index: 1;
 }
@@ -305,7 +306,7 @@ body {
     height: 40%;
     position: absolute;
     top: 80%;  
-    left: 1205px;
+    left: 83%;
 }
 .cuadramedio2{
     background-color: rgb(65, 64, 64);
@@ -313,6 +314,171 @@ body {
     height: 40%;
     position: absolute;
     top: 125%;  
-    left: 1205px;
+    left: 83%;
 }
-
+.cuadra1a{
+    background-color: rgb(95, 94, 94);
+    width: 6%;
+    height: 12%;
+    position: absolute;
+    top: 170%;  
+    left: 32%;
+}
+.linea1a{
+    background-color: rgb(194, 191, 191);
+    width: 8%;
+    height: 2%;
+    position: absolute;
+    top: 184%;  
+    left: 31%;
+}
+.lineaapeque{
+    background-color: rgb(192, 190, 190);
+    width: 8%;
+    height: 1%;
+    position: absolute;
+    top: 188%;  
+    left: 31%;
+}
+.lineaapeque1{
+    background-color: rgb(192, 190, 190);
+    width: 8%;
+    height: 1%;
+    position: absolute;
+    top: 190%;  
+    left: 31%;
+}
+.lineaabajo1{
+    background-color: rgb(192, 190, 190);
+    width: 6%;
+    height: 1%;
+    position: absolute;
+    top: 192%;  
+    left: 32%;
+}
+.cuadra2a{
+    background-color: rgb(95, 94, 94);
+    width: 6%;
+    height: 12%;
+    position: absolute;
+    top: 170%;  
+    left: 44%;
+}
+.linea2a{
+    background-color: rgb(192, 190, 190);
+    width: 8%;
+    height: 2%;
+    position: absolute;
+    top: 184%;  
+    left: 43%;
+}
+.lineaapeque2{
+    background-color: rgb(192, 190, 190);
+    width: 8%;
+    height: 1%;
+    position: absolute;
+    top: 188%;  
+    left: 43%;
+}
+.lineaapeque22{
+    background-color: rgb(192, 190, 190);
+    width: 8%;
+    height: 1%;
+    position: absolute;
+    top: 190%;  
+    left: 43%;
+}
+.lineaabajo2{
+    background-color: rgb(192, 190, 190);
+    width: 6%;
+    height: 1%;
+    position: absolute;
+    top: 192%;  
+    left: 44%;
+}
+.cuadra3a{
+    background-color: rgb(95, 94, 94);
+    width: 6%;
+    height: 12%;
+    position: absolute;
+    top: 170%;  
+    left: 57%;
+}
+.linea3a{
+    background-color: rgb(192, 190, 190);
+    width: 8%;
+    height: 2%;
+    position: absolute;
+    top: 184%;  
+    left: 56%;
+}
+.lineaapeque3{
+    background-color: rgb(192, 190, 190);
+    width: 8%;
+    height: 1%;
+    position: absolute;
+    top: 188%;  
+    left: 56%;
+}
+.lineaapeque33{
+    background-color: rgb(192, 190, 190);
+    width: 8%;
+    height: 1%;
+    position: absolute;
+    top: 190%;  
+    left: 56%;
+}
+.lineaabajo3{
+    background-color: rgb(192, 190, 190);
+    width: 6%;
+    height: 1%;
+    position: absolute;
+    top: 192%;  
+    left: 57%;
+}
+.cuadra4a{
+    background-color: rgb(95, 94, 94);
+    width: 6%;
+    height: 12%;
+    position: absolute;
+    top: 170%;  
+    left: 69%;
+}
+.linea4a{
+    background-color: rgb(192, 190, 190);
+    width: 8%;
+    height: 2%;
+    position: absolute;
+    top: 184%;  
+    left: 68%;
+}
+.lineaapeque4{
+    background-color: rgb(192, 190, 190);
+    width: 8%;
+    height: 1%;
+    position: absolute;
+    top: 188%;  
+    left: 68%;
+}
+.lineaapeque44{
+    background-color: rgb(192, 190, 190);
+    width: 8%;
+    height: 1%;
+    position: absolute;
+    top: 190%;  
+    left: 68%;
+}
+.lineaabajo4{
+    background-color: rgb(192, 190, 190);
+    width: 6%;
+    height: 1%;
+    position: absolute;
+    top: 192%;  
+    left: 69%;
+}
+p{
+    width: 60px;
+    height: 60px;
+    top: 200%;
+    position: absolute;
+}
